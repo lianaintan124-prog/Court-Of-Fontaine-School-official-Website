@@ -5,14 +5,6 @@ body {
     line-height: 1.6;
     background-color: rgb(253, 253, 254);
 }
-    body{
-        font-family: arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-        background-color: rgb(253, 253, 254);
-    }
-
     header{
         background: #908d8a;
         color: rgb(0, 4, 6);
@@ -195,4 +187,5 @@ button:hover {
         text-align: center;
         padding: 15px;
         margin-top: 20px;
+
     }
