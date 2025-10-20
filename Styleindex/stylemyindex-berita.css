@@ -1,0 +1,202 @@
+    body{
+        font-family: arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background-color: rgb(253, 253, 254);
+    }
+
+    header{
+        background: #908d8a;
+        color: rgb(0, 4, 6);
+        padding: 20px;
+        text-align: center;
+        min-height: 100px;
+        display: flex;
+    }
+
+    nav{
+        background-color: white;
+       margin-left: auto;
+       height: 60px;
+    }
+
+    nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        }
+
+    nav ul li{
+        position: relative;
+        margin: 0 15px;
+        }
+
+    nav ul li a{
+        color: #53504e;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 12px;
+        display: block;
+        }
+
+   nav ul li a:hover {
+        background: #696765;
+        border-radius: 5px;
+        } 
+
+    nav ul li ul{
+        display: none;
+        position: absolute;
+        top: 35px;
+        left: 0;
+        background: #6d6c6a;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+         border-radius: 5px;
+        } 
+
+      nav ul li ul li{
+        margin: 0;
+        width: 150px;
+        }
+
+    nav ul li ul li a{
+        padding: 10px;
+        font-weight: normal;
+        }
+
+    nav ul li:hover ul{
+        display: block;
+        }
+    .banner {
+        background-image: url(fotostyle/COF.jpeg);
+        color: rgb(41, 86, 4);
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+        margin: 20px 40px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+         }
+        .tulisan{
+            color: rgb(0, 12, 12);
+            padding-top: 40px;
+            font-size: 40px;
+            justify-content: center;
+            align-items: center;
+            text-align: center; 
+            font-weight: bold;
+            margin: 0 auto;
+            text-shadow: #53504e 2px 2px 10px; 
+            animation: Efek 4s ease;
+            transform: translate(Y);
+            position: relative;
+        } 
+        .tulisan:hover{
+                color: #0066cc;
+                cursor: pointer;
+        }
+        @keyframes Efek {
+            0%{
+                    bottom: -100px;
+                    opacity: 0;
+                }
+                100%{
+                    bottom: 0;
+                    opacity:1;
+                }
+        } 
+        main.Berita-page {
+    padding: 20px 40px;
+        }
+
+        main h2 {
+        text-align: center;
+        background-color: #908d8a;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        }
+
+        .kegiatan {
+        margin-top: 30px;
+        }
+
+        .kegiatan h3 {
+        color: #333;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #908d8a;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        }
+
+        .kegiatan-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+        }
+
+        article.kegiatan {
+        background-color: #f7f7f7;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: transform 0.2s ease-in-out;
+        }
+
+        article.kegiatan:hover {
+        transform: scale(1.02);
+        }
+
+    article.kegiatan header h4 {
+        color: #4a4948;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    article.kegiatan time {
+        font-size: 13px;
+        color: #6d6c6a;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    article.kegiatan p {
+        font-size: 14px;
+        color: #333;
+        text-align: justify;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .gallery figure {
+        flex: 1 1 100%;
+        margin: 0;
+    }
+
+    .gallery img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        object-fit: cover;
+    }
+   footer {
+        background: #757372;
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+    }
